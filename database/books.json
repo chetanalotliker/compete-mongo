@@ -1,0 +1,23 @@
+{
+  "_id": {
+    "$oid": "63ba5fb22b21c11c634676ea"
+  },
+  "title": "Mock Book Title",
+  "author": "Mock Author",
+  "pages": 320,
+  "genres": [
+    "fantacy",
+    "magical"
+  ],
+  "rating": 6,
+  "reviews": [
+    {
+      "name": "Mock Review 1",
+      "body": "Mock Description 1"
+    },
+    {
+      "name": "Mock Review 2",
+      "body": "Mock Description 2"
+    }
+  ]
+}
