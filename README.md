@@ -23,3 +23,10 @@ How to execute queries in mongo shell - mongo db compass
 - db.books.find({"author":"Mock Author"})
 
 You can try other queries in mongo shell.
+
+What are indexes and how to add indexes in mongo db
+
+- To create index: db.books.createIndex({ rating:6})
+- Run this stats: db.books.find({rating:6}).explain('executionStats')
+- Get the index: db.books.getIndexes()
+- Drop the index: db.books.dropIndex({rating:6})
