@@ -1,4 +1,4 @@
-Installation involved when creating this repo
+Installation involved when creating this repo (This is only one time)
 
 - npm init
 - npm install express --save
