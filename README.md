@@ -22,7 +22,7 @@ How to execute queries in mongo shell - mongo db compass
 - Bookstore.books
 - db.books.find({"author":"Mock Author"})
 
-You can try other queries in mongo shell.
+Note: You can try other queries in mongo shell.
 
 What are indexes and how to add indexes in mongo db
 
